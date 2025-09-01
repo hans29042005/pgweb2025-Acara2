@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Bantul</a> <!--Baru-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!--Baru bisa ms jika mau di kiri-->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Deskripsi">Deskripsi</a> <!--Langsung Scroll-->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Penduduk">Jumlah Penduduk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Kecamatan">Kecamatan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Website">Website</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Foto-Video">Gambar</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+    <main class="container mt-3"> <!-- Spasi -->
+        <!-- title -->
+        <div class="alert alert-primary" role="alert">
+            <h2>Bantul</h2>
+            <h5>Daerah Istimewa Yogyakarta</h5>
+        </div>
+
+        <!-- Deskripsi -->
+         <div class="card" id="Deskripsi"> <!--Langsung Scroll-->
+            <div class="card-header">
+                Deskripsi
+            </div>
+            <div class="card-body">
+                <p class="card-text">Kabupaten Bantul (bahasa Jawa: ꦧꦤ꧀ꦠꦸꦭ꧀, pelafalan dalam bahasa 
+                    Indonesia: [ˈbantʊl]) adalah sebuah wilayah kabupaten yang terletak di Provinsi 
+                    Daerah Istimewa Yogyakarta, Indonesia. Ibu kotanya adalah Kapanewon Bantul. 
+                    Pada akhir tahun 2024, jumlah penduduk Bantul sebanyak 980.269 jiwa.</p>
+                <p class="card-text">Semboyan pembangunan kabupaten ini adalah Projotamansari, 
+                    yang merupakan singkatan dari Produktif-Profesional, Ijo royo royo, Tertib, 
+                    Aman, Sehat, dan Asri. Pada 27 Mei 2006, gempa bumi besar berkekuatan 5,9 
+                    skala Richter mengakibatkan kerusakan yang besar terhadap daerah ini dan 
+                    kematian sedikitnya 3.000 penduduk Bantul. Daerah yang terkena dampak terparah 
+                    dari gempa tersebut adalah Pundong dan Imogiri.</p>
+            </div>
+        </div>
+
+            <!-- Penduduk -->
+            <div class="card mt-3" id="Penduduk"> <!--Spasi--> <!--Langsung Scroll-->
+                <div class="card-header">
+                    Penduduk
+                </div>
+                <div class="card-body">
+                    <table class="table table-striped table-bordered">
+                        <tr>
+                            <th>No</th>
+                            <th>Jenis Kelamin</th>
+                            <th>Jumlah</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Laki-laki</td>
+                            <td>488.162 jiwa</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Perempuan</td>
+                            <td>492.107 jiwa</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Total</td>
+                            <td>980.269 jiwa</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Kecamatan -->
+             <div class="card mt-3" id="Kecamatan"> <!--Spasi--> <!--Langsung Scroll-->
+                <div class="card-header">
+                    Kecamatan
+                </div>
+                <div class="card-body">
+                    <ol> <!-- list bernomor -->
+                        <li>Bambanglipuro</li> <!-- Item list -->
+                        <li>Banguntapan</li>
+                        <li>Bantul</li>
+                        <li>Dlingo</li>
+                        <li>Imogiri</li>
+                        <li>Jetis</li>
+                        <li>Kasihan</li>
+                        <li>Kretek</li>
+                        <li>Pajangan</li>
+                        <li>Pandak</li>
+                        <li>Piyungan</li>
+                        <li>Pleret</li>
+                        <li>Pundong</li>
+                        <li>Sanden</li>
+                        <li>Sedayu</li>
+                        <li>Sewon</li>
+                        <li>Srandakan</li> <!-- Item list terakhir -->
+                    </ol> <!-- Penutup list bernomor -->
+                </div>
+            </div>
+
+            <!-- Link Website -->
+             <div class="card mt-3" id="Website"> <!--Spasi--> <!--Langsung Scroll-->
+                <div class="card-header">
+                    Link Website
+                </div>
+                <div class="card-body">
+                    <a href="https://www.bantulkab.go.id/" target="_blank" rel="noopener noreferrer" 
+                    title="Klik Untuk Membuka Website">Website Bantul</a>
+                </div>
+            </div>
+
+            <!-- Foto & Video -->
+             <div class="card mt-3" id="Foto-Video"> <!--Spasi--> <!--Langsung Scroll-->
+                <div class="card-header">
+                    Foto & Video
+                </div>
+                <div class="card-body">
+                    <img src="https://dpmpt.bantulkab.go.id/web/view_image/images/1618814584_gerbang%20srandakan.jpg" alt="Ini Harusnya Gambar" 
+                    height="200px" title="Bantul">
+                    
+                    <br><br>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YqgyMCLLwyM?si=DEQnE9qaFSCRhOqu" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+    crossorigin="anonymous"></script>
+  </body>
+</html>
